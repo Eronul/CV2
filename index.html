@@ -3,9 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1997991_dopgu71azuu.css">
     <title>我的在线简历</title>
 </head>
 <body>
-    <h1>我的简历</h1>
+  <header>
+    <img class="avatar" src="./imgs/avatar.jpg" alt="头像">
+    <h1>魏仁杰</h1>
+    <p>应聘前端工程师</p>
+  </header>
+
+
+  <main>
+    <div class="column-1">
+      <section class="basic-info">
+        <span class="iconfont  icon-user"></span>
+        <h2>基本信息</h2>
+        <ul class="detail">
+          <li><span class="iconfont icon-phone"></span>19983485600</li>
+          <li><span class="iconfont icon-wechat"></span>xunmi0521</li>
+          <li><span class="iconfont icon-email"></span>weirenjied@163.com</li>
+          <li><sapn class="iconfont icon-education"></sapn>本科</li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <span class="iconfont  icon-skill"></span>
+        <h2>掌握技能</h2>
+        <ul class="detail">
+          <li>熟悉HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等</li>
+          <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念</li>
+          <li>熟悉React / Redux技术栈等使用，能够使用React进行基本开发</li>
+          <li>熟悉前后端交互技术JSONP、AJAX，了解fetch</li>
+          <li>熟悉Node.js开发，能搭建基础后台开发</li>
+        </ul>
+      </section>
+
+      <section class="map">
+        <span class="iconfont  icon-map"></span>
+        <h2>技能图谱</h2>
+        <dl class="detail">
+          <dt>JavaScript</dt>
+          <dd><span class="bar" style="width: 30%"></span></dd>
+          <dt>CSS3</dt>
+          <dd><span class="bar" style="width: 65%"></span></dd>
+          <dt>Node</dt>
+          <dd><span class="bar" style="width: 80%"></span></dd>
+          <dt>Vue</dt>
+          <dd><span class="bar" style="width: 50%"></span></dd>
+          <dt>React</dt>
+          <dd><span class="bar" style="width: 90%"></span></dd>
+        </dl>
+      </section>
+
+      <section class="skills">
+        <span class="iconfont  icon-skill"></span>
+        <h2>Mobx翻译</h2>
+        <ul class="detail">
+          <li>志愿翻译Mobx文档</li>
+          
+        </ul>
+      </section>
+    </div>
+    <div class="column-2">
+      <section class="education layout-1">
+        <span class="iconfont  icon-education"></span>
+        <h2>教育经历</h2>
+        <ul class="detail">
+          <li>
+            <span class="timeline">09/2017~07/2021</span>
+            <h3>西华大学</h3>
+            <span class="subtitle">校团宣部长</span>
+            <p class="content">大二担任团委宣传部部长，主要进行对学校活动的记录及撰稿，稿文曾发表在西华大学官网上。<br>组织过部门团建。</p>
+          </li>
+          
+        </ul>
+      </section>
+
+      <section class=" work layout-1">
+        <span class="iconfont  icon-work"></span>
+        <h2>工作经历</h2>
+        <ul class="detail">
+          <li>
+            <span class="timeline">07/2018~09/2018</span>
+            <h3>泡桐教育</h3>
+            <span class="subtitle">数学物理教师</span>
+            
+              <ul class="content">
+                <li>
+                  每日备课教学，会自己制作试卷打印，熟悉Word,Excel等基本办公软件。
+                </li>                          
+                
+                                        
+              </ul>
+            
+          </li>                 
+        </ul>
+      </section>
+
+      <section class=" work layout-1">
+        <span class="iconfont  icon-project"></span>
+        <h2>项目经历</h2>
+        <ul class="detail">
+          <li>
+            
+            <h3>oneslide-easyPPT项目</h3>
+            
+            <p>
+              <ul class="content">
+                <li>
+                  项目介绍：该项目是一个简易快速制作PPt的小应用，用户只需要将自己的文字用几个简单的markdown语法输入，也可上传图片
+                </li>                          
+                <li>
+                  项目目的: 节省用在制作PPT的时间，转而将更多时间用在PPT内容上
+                </li>                          
+                <li>
+                  项目预览思路: 项目支撑饥人谷日常教学活动、运营活动的正常开展，支持数千学生的日常线上学习，几十万用户的日常访问。</li>
+                <li>
+                  项目代码: 该项目的目的是节省用在PPT格式上的时间，转而将更多时间用在PPT内容上
+                </li>                                            
+              </ul>
+            </p>
+          </li>                 
+        </ul>       
+      </section>
+
+      <section class=" work layout-1">          
+          <ul class="detail">
+            <li>
+              
+              <h3>wheel-carousel组件</h3>           
+              <p>
+                <ul class="content">
+                 <li>
+                    项目介绍： 该组件实现了点击左右按钮切换页面的功能，并添加了切换页面的动画效果，如平滑，渐变，放大缩小。                   
+                 </li>                          
+                 
+                                            
+                </ul>
+              </p>
+            </li>                 
+          </ul>            
+      </section>
+
+      <section class=" work layout-1">          
+        <ul class="detail">
+          <li>
+            
+            <h3>wheel-dialog组件</h3>           
+            <p>
+              <ul class="content">
+               <li>
+                  项目介绍： 该组件的功能是点击按钮，页面会弹出一个对话框，对话框也有响应的功能按钮                 
+               </li>                          
+               
+                                          
+              </ul>
+            </p>
+          </li>                 
+        </ul>            
+    </section>
+
+    
+
+   <section class=" work layout-1">          
+      <ul class="detail">
+        <li>
+          
+          <h3>elui组件</h3>           
+          <p>
+            <ul class="content">
+             <li>
+                <b>Collapser折叠面板</b>项目介绍： 该组件是一个可折叠面板，其中有多个小标题，当点击标题时，面板会出现更多详细信息。
+                                  
+             </li>                          
+             <li>
+              <b>Message消息提示</b>项目介绍： 该组件当你点击一个功能按钮，如果实现了功能，则会有对应的成功提示，警告，错误，以及出现新消息时都会有对应的提示出现
+             </li> 
+             <li>
+              <b>Tab选项卡</b>项目介绍： 该组件当你点击不同的选项时会出现相对应的信息功能
+             </li>  
+             <li>
+              <b>Tooltip文字提示</b>项目介绍： 该组件当你鼠标放在对应文字模块上时，会出现相应文字提示
+             </li>                       
+             
+                                        
+            </ul>
+          </p>
+        </li>                 
+      </ul>            
+  </section>
+    </div>
+        
+      
+   </main>
 </body>
 </html>
